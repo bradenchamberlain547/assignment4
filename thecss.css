@@ -1,0 +1,48 @@
+header {
+    text-align: center;
+    color: green;
+    background-color: lightgray;
+    }
+
+img {
+    float: left;
+    width: 500px;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 3px;
+    transform: rotate(-10deg);
+    filter: blur(1px) brightness(1.5)
+    
+}
+
+nav {
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    background-image: linear-gradient(to right, green, lightgreen);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+section {
+    background-image: linear-gradient(to right, green, lightgreen);
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+body {
+    background-color: lightgray;
+    border-style: solid;
+    border-color: green;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    background-image: linear-gradient(to right, green, lightgreen);
+    padding: 20px;
+}
